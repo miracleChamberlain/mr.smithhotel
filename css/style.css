@@ -1,0 +1,170 @@
+html{
+  scroll-behavior: smooth;
+
+}
+a:hover {
+    color: black;
+}
+a {
+    color: black;
+}
+footer {
+  padding: 20px;
+
+}
+
+.contact-page a:link{
+color: dark;
+}
+
+.about-text {
+   letter-spacing: 0px!important;
+}
+
+section.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/home.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85.5vh;
+  background-attachment: fixed;
+}
+div.membershipBtn a {
+  background-color: yellow;
+}
+
+div.membershipBtn a:hover {  /* The on-hover styling */
+  background-color: lightgrey;
+  color: black !important;
+  transition: 1s;
+}
+
+/* animation start */
+
+.home-animation{ animation: fadeInDown 5s; }
+@keyframes fadeInDown {
+   0% {
+      opacity: 0;
+      transform: translateY(-20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .home-animation{
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+    animation: auto linear fadeInDown both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 20%;
+
+  }
+}
+
+
+
+body{ animation: fadeInDown 5s; }
+@keyframes fadeInDown {
+   0% {
+      opacity: 0;
+      transform: translateY(-20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+@media (prefers-reduced-motion: no-preference) {
+  body{
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+
+  }
+}
+
+
+/* animation end */
+
+.navbar a:hover{
+	color: black !important;
+}
+.navbar-toggler{
+	color: yellow!important;
+}
+#line {
+  width: 100px;
+  height: 5px;
+  background-color: yellow;
+  margin: auto;
+}
+
+
+/* Social Media Handle Stylings */
+i.fa-facebook {
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  padding: 10px 12px;
+  margin-right: 20px;
+}
+
+i.fa-twitter {
+  border-radius: 15px;
+  background-color: skyblue;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+i.fa-instagram {
+  border-radius: 15px;
+  background-color: red;
+  padding: 10px;
+}
+i.fa-youtube {
+  border-radius: 15px;
+  background-color: red;
+  background-size: 500px!important;
+  padding: 10px;
+}
+
+/* .......... */
+
+
+/* small screen for live brodcast/ landingpage*/
+@media (max-width: 575px), (max-width: 991px) {
+
+	html{
+	  scroll-behavior: smooth;
+
+	}
+  video {
+      width: 100%;
+      height: auto;
+  }
+	  .about-img{
+    width: 100%;
+  }
+  .card{
+    width: 100% !important;
+    margin-top: 5px !important;
+  }
+  .live-broadcast{
+    margin-top: 0px !important;
+  }
+
+
+
+
+.size-video {
+    width: 100%;
+    height: auto;
+}
+
+/*card advart margim*/
+.cardadvartmargim{
+	margin-top: 10px!important;
+}
+
+
+	 }
